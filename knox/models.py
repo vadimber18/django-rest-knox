@@ -5,7 +5,7 @@ from django.utils import timezone
 from knox import crypto
 from knox.settings import CONSTANTS, knox_settings
 
-User = settings.AUTH_USER_MODEL
+User = settings.AUTH_USER_MODEL_KNOX
 
 
 class AuthTokenManager(models.Manager):
